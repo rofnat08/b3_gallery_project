@@ -1,10 +1,10 @@
 import paisaje4 from '../assets/img/paisaje4.jpg';
 import PropTypes from 'prop-types';
 
-export const Paisaje4 = ({props}) => {
+export const Paisaje4 = ({className}) => {
   return (
     <img src={paisaje4} alt="Paisaje de primavera"
-    className = {props.className} />
+    className = {className} />
   )
 }
 
