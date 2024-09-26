@@ -8,6 +8,6 @@ export const Paisaje4 = ({props}) => {
   )
 }
 
-Paisaje4.PropTypes = {
+Paisaje4.propTypes = {
     className: PropTypes.string
 }
